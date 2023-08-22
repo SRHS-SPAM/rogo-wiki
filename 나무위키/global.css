@@ -1,0 +1,111 @@
+body {
+  color: white;
+  background-color: rgb(0, 0, 0);
+}
+
+div {
+  margin: 8px;
+}
+.s {
+  display: flex;
+  align-items: center;
+  border: solid whitesmoke;
+  border-radius: 5px;
+  border-width: 1px;
+  height: 29px;
+}
+
+.dp_box {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  gap: 25px;
+}
+
+.r {
+  border: solid whitesmoke;
+  border-radius: 5px;
+  border-width: 1px;
+  height: 200px;
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.r > div {
+  font-size: 15px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.r > ol > li {
+  justify-self: center;
+}
+
+.show {
+  font-size: 30px;
+}
+
+hr.line {
+  display: flex;
+  border-bottom: 0px;
+  text-align: left;
+  margin-left: 0px;
+  color: whitesmoke;
+}
+
+a {
+  color: darkorange;
+}
+.p {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+#small0,
+#small1,
+#small2,
+#small3,
+#small4,
+#small5,
+#small6,
+#small7,
+#small8 {
+  font-size: small;
+  color: yellow;
+}
+
+#no0,
+#no1,
+#no2,
+#no3,
+#no4,
+#no5,
+#no6,
+#no7,
+#no8 {
+  font-size: small;
+  color: yellow;
+}
+
+.asd {
+  font-size: small;
+  color: yellow;
+}
+
+.tree {
+  display: flex;
+  float: left;
+  width: auto;
+  height: auto;
+}
+
+.rap {
+  display: flex;
+  background-color: purple;
+}
