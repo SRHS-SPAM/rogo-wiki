@@ -109,3 +109,10 @@ a {
   display: flex;
   background-color: purple;
 }
+
+.header_button {
+  border: none;
+  background-color: purple;
+  cursor: pointer;
+  color: white;
+}
