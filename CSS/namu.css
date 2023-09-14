@@ -1,0 +1,205 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: gray;
+}
+
+.small-box {
+  display: flex;
+  background-color: ghostwhite;
+  width: 65%; /* 부모 요소의 절반 크기 */
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.tree {
+  display: flex;
+  float: left;
+  width: 100%;
+  height: 50px;
+  justify-content: center;
+  background-color: yellow;
+}
+
+.header_button {
+  border: none;
+  background-color: yellow;
+  cursor: pointer;
+  color: black;
+  font-size: xx-large;
+}
+
+.sholder_button {
+  border: none;
+  background-color: yellow;
+  cursor: pointer;
+  color: #bdbdbd;
+  font-size: x-large;
+}
+
+.search {
+  width: 300px;
+  height: 500px;
+}
+
+.search input {
+  width: 80%;
+  height: 45px;
+  font-size: 18px;
+  border: none;
+  border-bottom: 1px black solid;
+}
+
+.search button {
+  font-size: 18px;
+  border: none;
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 15px;
+  color: black;
+  cursor: pointer;
+}
+
+.green {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.fdf {
+  color: yellow;
+}
+
+.wrap {
+  margin-left: 30px;
+  font-size: medium;
+}
+
+.fda {
+  border: 0.5px solid black;
+  display: flex;
+  border-radius: 5px;
+  border-width: 1px;
+  width: 118vh;
+}
+
+.info {
+  text-align: center;
+  font-size: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 1px;
+}
+
+.info h2 {
+  font-weight: 600;
+}
+
+.info h5 {
+  font-weight: 500;
+}
+
+.ques {
+  width: 100%;
+  height: 530px;
+  border: 3px solid #d7df01;
+  display: flex;
+}
+
+.lane {
+  width: 100%;
+}
+
+.yel {
+  background-color: yellow;
+  height: 100%;
+  width: 15%;
+}
+
+.nine h1 {
+  font-weight: 5500;
+  font-size: 25px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.nine h2 {
+  font-weight: 600;
+  font-size: 17px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.tat {
+  width: 100%;
+}
+
+.fha {
+  display: flex;
+}
+
+@media (max-width: 110vh) {
+  .fda {
+    border: 0.5px solid black;
+    display: flex;
+    border-radius: 5px;
+    border-width: 1px;
+    width: 105vh;
+  }
+  .ques {
+    width: 105vh;
+    height: 500px;
+    border: 3px solid #d7df01;
+  }
+  .lane {
+    width: 90%;
+  }
+}
+
+@media (max-width: 100vh) {
+  .fda {
+    border: 0.5px solid black;
+    display: flex;
+    border-radius: 5px;
+    border-width: 1px;
+    width: 115%;
+  }
+  .ques {
+    width: 115%;
+    height: 500px;
+    border: 3px solid #d7df01;
+  }
+  .lane {
+    width: 115%;
+  }
+}
+
+@media (max-width: 80vh) {
+  .fda {
+    border: 0.5px solid black;
+    display: flex;
+    border-radius: 5px;
+    border-width: 1px;
+    width: 70%;
+  }
+  .ques {
+    width: 70%;
+    height: 500px;
+    border: 3px solid #d7df01;
+  }
+  .lane {
+    width: 70%;
+  }
+}
