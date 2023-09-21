@@ -4,8 +4,9 @@ body {
 }
 
 div {
-  margin: 8px;
+  margin: 1px;
 }
+
 .s {
   display: flex;
   align-items: center;
@@ -107,12 +108,16 @@ a {
 
 .rap {
   display: flex;
-  background-color: purple;
+  background-color: darkorange;
 }
 
 .header_button {
   border: none;
-  background-color: purple;
+  background-color: darkorange;
   cursor: pointer;
   color: white;
+}
+
+.gar {
+  background-color: darkorange;
 }
