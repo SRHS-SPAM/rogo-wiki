@@ -8,10 +8,7 @@ html {
 }
 
 .small-box {
-  display: flex;
   background-color: ghostwhite;
-  width: 65%; /* 부모 요소의 절반 크기 */
-  height: 100vh;
   margin: 0 auto;
 }
 
@@ -20,8 +17,9 @@ html {
   float: left;
   width: 100%;
   height: 50px;
-  justify-content: center;
+  justify-content: space-between;
   background-color: yellow;
+  flex-wrap: nowrap;
 }
 
 .header_button {
@@ -40,17 +38,25 @@ html {
   font-size: x-large;
 }
 
+.search_container {
+  display: flex;
+  align-items: center;
+}
+
 .search {
   width: 300px;
-  height: 500px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .search input {
   width: 80%;
-  height: 45px;
+  height: 30px;
   font-size: 18px;
   border: none;
-  border-bottom: 1px black solid;
+  border: 0.5px solid black;
 }
 
 .search button {
@@ -58,10 +64,11 @@ html {
   border: none;
   background-color: white;
   width: 50px;
-  height: 50px;
-  border-radius: 15px;
+  height: 30px;
+  border-radius: 5px;
   color: black;
   cursor: pointer;
+  border: 0.5px solid black;
 }
 
 .green {
@@ -75,7 +82,6 @@ html {
 }
 
 .wrap {
-  margin-left: 30px;
   font-size: medium;
 }
 
